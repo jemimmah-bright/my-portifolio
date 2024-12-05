@@ -1,0 +1,131 @@
+header {
+    top: 10;
+    left: 0;
+    width: 100%;
+    font-family:'poppins',sans-serif;
+    background:linear-gradient(to bottom, #282c34,#333); 
+    color: white;
+    box-shadow: 0 2px white; /* Optional: Add shadow for better visibility */
+    z-index: 1000; /* Ensures the nav stays on top */
+}
+
+/* Style the container to center it and add space */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 10px 0; /* Add vertical padding for spacing */
+}
+
+/* Flexbox layout to arrange the nav items horizontally */
+nav ul {
+    display: flex;
+    justify-content: space-between; /* Distribute items with space between them */
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+/* Style the anchor tags */
+nav ul li a{
+    text-decoration: none; /* Remove underline */
+    color:lightblue; /* Text color */
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold;
+    
+}
+
+nav ul li a:hover{
+    color: lightgray;
+    background-color: aquamarine;
+    text-decoration: underline;
+}
+
+.circular_image{
+    width: 400px;
+    height: 400px;
+    border-radius:50%;
+    display: block;
+    margin-top: 80px;
+    
+}
+
+section {
+    position: relative; /* Makes the section the reference for absolute positioning */
+}
+.mine {
+    color: wheat;
+    position: absolute;
+    top: -300px; /* Moves the element 20px above the top of the section */
+    left: 350px;
+    padding: 20px; /* Optional: Adds padding for spacing inside the div */
+    text-align:center; /* Aligns text to the right within the div */
+    margin-top: -10%;
+}
+
+.left-section {
+    width: 30%; /* Adjust width as needed */
+    padding: 20px;
+    background-color:wheat; /* Light background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    left: 0;
+    margin-left: 800px;
+    position: relative;
+    top: -280px;
+    margin: 0 auto; 
+}
+
+.left-section h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.left-section p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.left-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-section li {
+    margin: 10px 0;
+}
+
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    bottom:10px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px; /* Adjust the size of the icons */
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change color when hovering */
+}
+
+body {background-color:wheat;}

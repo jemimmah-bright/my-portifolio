@@ -1,0 +1,172 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;
+    border: 5px solid #4CAF50;
+}     
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color:wheat;
+    padding: 20px;
+    color: #333;
+}
+
+
+.skills-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.skills-container h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.skills-container p {
+    font-size: 18px;
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Skills List Styling */
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Individual Skill Block */
+.skill {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Skill Name Styling */
+.skill label {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Progress Bar Container */
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+/* Progress Bar Styling */
+.progress {
+    height: 100%;
+    border-radius: 5px;
+}
+
+/* Skill Percentage Styling */
+.skill span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Specific Progress Bar Colors for Skills */
+#html-progress {
+    background-color: #ff5722; /* Orange */
+    width: 90%;
+}
+
+#css-progress {
+    background-color: #2196f3; /* Blue */
+    width: 85%;
+}
+
+#js-progress {
+    background-color: #ffeb3b; /* Yellow */
+    width: 70%;
+}
+
+#design-progress {
+    background-color: #4caf50; /* Green */
+    width: 80%;
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+    .skills-container {
+        padding: 20px;
+    }
+
+    .skills-container h1 {
+        font-size: 30px;
+    }
+
+    .skills-container p {
+        font-size: 16px;
+    }
+
+    .skill label {
+        font-size: 16px;
+    }
+
+    .progress-bar {
+        height: 15px;
+    }
+
+    .skill span {
+        font-size: 14px;
+    }
+}
+
+
+/* Basic Reset for the Navigation */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the nav element */
+nav {
+    background-color: #333; /* Dark background for the navigation */
+    display: flex;          /* Flexbox to arrange links horizontally */
+    justify-content: center; /* Center the links */
+    padding: 10px 0;        /* Add padding above and below the links */
+}
+
+/* Style for the links inside the nav */
+nav a {
+    color: white;            /* White text color */
+    text-decoration: none;   /* Remove underline */
+    padding: 10px 20px;      /* Add space around each link */
+    font-size: 16px;         /* Font size */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for the links */
+nav a:hover {
+    background-color: #575757; /* Darker background on hover */
+}
+
+/* Optional: Styling for skills container (could be a dropdown or something else) */
+.skills-container {
+    display: none; /* Initially hidden, can be styled further */
+}

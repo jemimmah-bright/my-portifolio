@@ -1,0 +1,41 @@
+body {background-color:wheat;
+}
+
+h2,h3,p {font-size: 20px;
+color: blue;}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 10px 0; /* Add vertical padding for spacing */
+}
+
+/* Flexbox layout to arrange the nav items horizontally */
+nav ul {
+    display: flex;
+    justify-content: space-between; /* Distribute items with space between them */
+    padding: 15px;
+    margin: 5px;
+    list-style-type: none;
+}
+
+/* Style each list item */
+nav ul li {
+    margin: 0 15px; /* Horizontal spacing between items */
+}
+
+/* Style the anchor tags */
+nav ul li a{
+    text-decoration: none; /* Remove underline */
+    color:lightblue; /* Text color */
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold;
+    
+}
+
+nav ul li a:hover{
+    color: lightgray;
+    background-color: aquamarine;
+    text-decoration: underline;
+}
